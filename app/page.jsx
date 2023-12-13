@@ -11,12 +11,18 @@ export default function Home() {
           <p className="max-w-5xl text-justify">
             Hi there, this is a start up that I funded in united kingdom to help
             you as an IT enthusiasts or graduate to get your first job in the
-            tech industry. My company{" "}
+            tech industry.
+          </p>
+          <p>
+            My company{" "}
             <span className="font-bold text-green-700">Sakouhi Co</span> is
             registered internationnaly and it is looking for interns at the
             moments, so if you are interested in getting your internship and
-            kicking start a small SaaS project of your own, please fill the form
-            below and I will get back to you as soon as possible.
+            kicking start a small SaaS project of your own.
+          </p>
+          <p>
+            Please fill the form below and I will get back to you as soon as
+            possible.
           </p>
           <div className="border-xl mt-2 w-full bg-slate-200 rounded">
             <ContactForm />
