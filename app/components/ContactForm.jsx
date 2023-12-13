@@ -9,7 +9,7 @@ const ContactForm = () => {
   const [university, setUniversity] = useState("");
   const [linkedIn, setLinkedIn] = useState("");
   const [message, setMessage] = useState("");
-  const [expertise, setExpertise] = useState("");
+  const [expertise, setExpertise] = useState("Web Development");
   const [technologies, setTechnologies] = useState("");
   const [errors, setErrors] = useState([]);
   const [success, setSuccess] = useState(false);
