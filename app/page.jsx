@@ -10,15 +10,15 @@ export default function Home() {
           </h1>
           <p className="max-w-5xl text-justify">
             Hi there, this is a start up that I funded in united kingdom to help
-            you as an IT enthusiasts or graduate to get your first job in the
+            you as an IT enthusiast or graduate to get your first job in the
             tech industry.
           </p>
           <p>
             My company{" "}
             <span className="font-bold text-green-700">Sakouhi Co</span> is
-            registered internationnaly and it is looking for interns at the
-            moments, so if you are interested in getting your internship and
-            kicking start a small SaaS project of your own.
+            registered internationally and is looking for interns at the moment,
+            so if you are interested in getting your internship and kicking
+            start a small SaaS project of your own.
           </p>
           <p>
             Please fill the form below and I will get back to you as soon as

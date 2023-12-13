@@ -29,14 +29,14 @@ const internsSchema = new Schema({
     type: String,
     required: [true, "Please enter your LinkedIn profile"],
     trim: true,
-    maxLength: [100, "LinkedIn profile cannot be more than 100 characters"],
+    maxLength: [200, "LinkedIn profile cannot be more than 200 characters"],
     minLength: [10, "LinkedIn profile must be at least 10 characters long"],
   },
   expertise: {
     type: String,
     required: [true, "Please enter your expertise"],
     trim: true,
-    maxLength: [100, "Expertise cannot be more than 100 characters"],
+    maxLength: [300, "Expertise cannot be more than 300 characters"],
     minLength: [2, "Expertise must be at least 2 characters long"],
   },
   technologies: {
