@@ -81,7 +81,7 @@ const ContactForm = () => {
           <input
             type="text"
             id="university"
-            placeholder="University of Lagos"
+            placeholder="University of Cambridge"
             onChange={(e) => {
               setUniversity(e.target.value);
             }}
